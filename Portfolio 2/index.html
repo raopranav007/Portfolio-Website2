@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Pranav Yadav</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home">
+        <div class="header-content">
+            <h1>Hello, I'm <span class="highlight">Pranav Yadav</span></h1>
+            <p class="tagline">Web Developer | Designer | Problem Solver</p>
+            <button class="cta-button" onclick="location.href='#contact'">Get In Touch</button>
+        </div>
+    </header>
+
+    <hr class="section-divider">
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <img src="/Image/profile.jpeg" alt="Profile Photo" class="profile-img">
+                <div class="about-text">
+                    <p>I'm a passionate web developer with expertise in creating modern, responsive websites. With a strong foundation in HTML, CSS, and JavaScript, I love turning ideas into beautiful digital experiences.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while reading about the latest web development trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Proficiency Level</th>
+                        <th>Experience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Advanced</td>
+                        <td>3+ years</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>Advanced</td>
+                        <td>3+ years</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                        <td>1+ years</td>
+                    </tr>
+                    <tr>
+                        <td>Responsive Design</td>
+                        <td>Intermediate</td>
+                        <td>1+ years</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal portfolio built with HTML5 and CSS3, showcasing my skills and projects.</p>
+                    <button class="project-button">View Project</button>
+                </div>
+                <div class="project-card">
+                    <h3>E-Commerce Site</h3>
+                    <p>A fully functional online store with product listings, shopping cart, and checkout system.</p>
+                    <button class="project-button">View Project</button>
+                </div>
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>Real-time weather application using API integration to display current weather conditions.</p>
+                    <button class="project-button">View Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Pranav Yadav. All rights reserved.</p>
+        <p>Built with HTML & CSS</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+</body>
+</html>
